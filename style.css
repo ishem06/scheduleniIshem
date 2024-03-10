@@ -1,0 +1,104 @@
+/* Ishem Amido */
+/* Bs INFO 2A */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #a0a9b2; /* Custom body background color */
+}
+
+header {
+    padding: 20px;
+}
+
+header h3 {
+    margin: 0;
+    font-size: 1.5em; /* Larger header size */
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+#schedule {
+    margin: 20px auto; /* Center the table */
+    width: 85%; /* Table width */
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: fixed; /* Ensure the table layout doesn't change */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center; /* Horizontal alignment */
+    vertical-align: middle; /* Vertical alignment */
+    background-color: #a0a9b2; /* Default cell background color */
+    font-size: 14px; /* Fixed font size */
+}
+
+th:first-child,
+td:first-child {
+    width: 10%; /* First column width */
+}
+
+th:not(:first-child),
+td:not(:first-child) {
+    width: 15%; /* Remaining columns width */
+}
+
+th {
+    background-color: black; /* Custom table header background color */
+    color: white; /* Custom table header text color */
+    font-weight: bold;
+    font-style: italic;
+}
+
+td.one { background-color: rgb(197, 108, 108); }
+td.two { background-color: rgb(213, 171, 93); }
+td.three { background-color: rgb(204, 204, 48); }
+td.four { background-color: yellowgreen; }
+td.five { background-color: rgb(40, 191, 40); }
+td.six { background-color: rgb(20, 131, 20); }
+td.seven { background-color: rgb(43, 43, 127); }
+td.eight { background-color: rgb(78, 78, 193); }
+td.nine { background-color: rgb(127, 64, 186); }
+td.ten { background-color: rgb(181, 90, 181); }
+td.eleven { background-color: rgb(146, 105, 146); }
+td.net { background-color: pink; }
+td.web { background-color: rgba(124, 51, 192, 0.723); }
+td.prog { background-color: rgb(172, 222, 98); }
+td.mul { background-color: rgb(177, 59, 59); }
+td.ethics { background-color: rgb(74, 74, 178); }
+td.data { background-color: rgb(213, 173, 99); }
+td.PE { background-color: hotpink; }
+
+@media print {
+    body {
+        font-family: "Times New Roman", Times, serif; /* Font usage in print mode */
+        background-color: white; /* White background for printing */
+        color: black; /* Black text color for printing */
+    }
+
+    table {
+        background-color: white; /* White background for printing */
+    }
+
+    th, td {
+        background-color: #f0f0f0; /* Shades of gray for table cells */
+        color: black; /* Black text color for printing */
+    }
+}
+
+
